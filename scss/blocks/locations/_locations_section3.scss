@@ -1,0 +1,47 @@
+.locations__section3__task {
+  width: 1110px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    width: 351px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: $dark_navy;
+  }
+
+  p {
+    width: 445px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: $dim-grey;
+  }
+
+  &--btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    background: $yellow;
+    border: none;
+
+    width: 180px;
+    height: 53px;
+
+    &:hover {
+      background: #ffff;
+      border: 3px solid $yellow;
+      color: $yellow;
+      cursor: pointer;
+    }
+  }
+}

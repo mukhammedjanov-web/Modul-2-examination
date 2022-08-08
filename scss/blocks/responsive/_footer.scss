@@ -1,0 +1,249 @@
+// RWD Responsive WEB Design
+@media only screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+    height: 300px;
+    background: $dark_navy;
+  }
+  .footer1 {
+    width: 768px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 62px;
+  }
+  .footer__task1 {
+    width: 457px;
+    height: 176px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      width: 457px;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14286px;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    &__btn {
+      width: 256px;
+      display: flex;
+      justify-content: space-between;
+
+      &__link {
+        img {
+          width: 113px;
+          height: 40px;
+        }
+      }
+
+      &__link2 {
+        img {
+          width: 130px;
+          height: 40px;
+        }
+      }
+    }
+  }
+
+  .footer2 {
+    width: 100%;
+    height: 96px;
+    background: #333a44;
+  }
+  .footer__task2 {
+    width: 689px;
+    height: 96px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 522px;
+      margin-left: 58px;
+
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 249px;
+
+        &__li {
+          list-style-type: none;
+
+          &--link {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            color: $dim-grey;
+
+            &:hover {
+              color: $yellow;
+            }
+          }
+        }
+      }
+    }
+
+    &__item2 {
+      width: 120px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &--link {
+        svg {
+          display: none;
+        }
+
+        &:hover img {
+          display: none;
+        }
+        &:hover svg {
+          display: inline;
+        }
+      }
+    }
+  }
+}
+
+// For small screens
+@media only screen and (max-width: 576px){
+  footer {
+    width: 100%;
+    height: 320px;
+    background: $dark_navy;
+  }
+  .footer1 {
+    width: 375px;
+    height: 320px;
+    margin: 0 auto;
+    padding-top: 88px;
+  }
+  .footer__task1 {
+    width: 311px;
+    height: 144px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      width: 311px;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -1.42857px;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    &__btn {
+      width: 256px;
+      display: flex;
+      justify-content: space-between;
+
+      &__link {
+        img {
+          width: 113px;
+          height: 40px;
+        }
+      }
+
+      &__link2 {
+        img {
+          width: 130px;
+          height: 40px;
+        }
+      }
+    }
+  }
+
+  .footer2 {
+    width: 100%;
+    height: 478px;
+    background: #333a44;
+  }
+  .footer__task2 {
+    width: 375px;
+    height: 478px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-top: 64px;
+    padding-bottom: 88px;
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 120px;
+      height: 216px;
+      margin: 0 auto;
+      flex-direction: column;
+
+
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 74px;
+        height: 107px;
+        flex-direction: column;
+        align-items: center;
+
+        &__li {
+          list-style-type: none;
+
+          &--link {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            color: $dim-grey;
+
+            &:hover {
+              color: $yellow;
+            }
+          }
+        }
+      }
+    }
+
+    &__item2 {
+      width: 120px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &--link {
+        svg {
+          display: none;
+        }
+
+        &:hover img {
+          display: none;
+        }
+        &:hover svg {
+          display: inline;
+        }
+      }
+    }
+  }
+}

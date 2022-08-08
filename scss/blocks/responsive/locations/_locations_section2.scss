@@ -1,0 +1,72 @@
+// RWD Responsive WEB Design
+@media only screen and (max-width: 768px) {
+  .locations__section2__task {
+    margin-left: 39px;
+    margin-bottom: 64px;
+
+    &__item {
+      display: none;
+    }
+
+    &--map {
+      display: none;
+    }
+
+    &--map2 {
+      width: 689px;
+      height: 337px;
+    }
+  }
+}
+
+// For small screens
+@media only screen and (max-width: 576px) {
+  .locations__section2__task {
+    margin-left: 0;
+    margin-bottom: 40px;
+
+    &--map2 {
+      width: 689px;
+      height: 337px;
+      display: none;
+    }
+
+    &--map {
+      
+     display: block;
+     width: 311px;
+      height: 152px;
+      margin-bottom: 40px;
+      margin-left: 32px;
+    }
+
+    &__item {
+      width: 311px;
+      height: 336px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 72px;
+
+      &__card {
+        width: 311px;
+        height: 72px;
+        background: rgba(252, 183, 43, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h4 {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: -1.07143px;
+          color: $dark_navy;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,168 @@
+// RWD Responsive WEB Design
+@media only screen and (max-width: 768px) {
+  .about__section4__task {
+    width: 689px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: -2.14286px;
+      color: $dark_navy;
+      margin-bottom: 64px;
+    }
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 48px;
+      flex-direction: column;
+      align-items: center;
+
+      h3 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.78571px;
+        color: $dark_navy;
+        margin-bottom: 32px;
+      }
+
+      &__cards {
+        width: 689px;
+      }
+    }
+  }
+
+  .section4__accordion {
+    &__item {
+      margin-bottom: 16px;
+      border: none;
+      border-radius: none;
+
+      h2 {
+        margin-bottom: 0;
+      }
+
+      button {
+        height: 92px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: $dark_navy;
+        background: $snow;
+
+        &:enabled {
+          color: $dark_navy;
+          background: $snow;
+          border: none;
+        }
+
+        &:hover {
+          background: $light_yellow;
+        }
+      }
+
+      &__collapse {
+        &--body {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dark_navy;
+          background: $snow;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+
+// For small screens
+@media only screen and (max-width: 576px){
+  .about__section4__task {
+    width: 311px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing:  -1.42857px;
+      color: $dark_navy;
+      margin-bottom: 48px;
+    }
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 48px;
+      flex-direction: column;
+      align-items: center;
+
+      h3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: $dark_navy;
+        margin-bottom: 32px;
+      }
+
+      &__cards {
+        width: 311px;
+      }
+    }
+  }
+
+  .section4__accordion {
+    &__item {
+      margin-bottom: 16px;
+      border: none;
+      border-radius: none;
+
+      h2 {
+        margin-bottom: 0;
+      }
+
+      button {
+        height: 92px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.803571px;
+        color: $dark_navy;
+        background: $snow;
+
+        &:enabled {
+          color: $dark_navy;
+          background: $snow;
+          border: none;
+        }
+
+        &:hover {
+          background: $light_yellow;
+        }
+      }
+
+      &__collapse {
+        &--body {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dark_navy;
+          background: $snow;
+          border: none;
+        }
+      }
+    }
+  }
+}

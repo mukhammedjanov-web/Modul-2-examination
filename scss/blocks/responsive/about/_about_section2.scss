@@ -1,0 +1,289 @@
+// RWD Responsive WEB Design
+@media only screen and (max-width: 768px) {
+  .about__section2__task {
+    width: 734px;
+    margin-left: 40px;
+    height: 687px;
+    margin-bottom: 120px;
+    position: relative;
+    overflow-x: hidden;
+
+    &__item {
+      width: 573px;
+      height: 687px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column-reverse;
+      margin-left: 57px;
+
+      img {
+        border-radius: 50%;
+      }
+
+      &__card {
+        width: 573px;
+        height: 186px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h2 {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 48px;
+          letter-spacing: -2.14286px;
+          color: $dark_navy;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
+
+        p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dim_grey;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+
+    &__round {
+      width: 445px;
+      height: 445px;
+      border-radius: 50%;
+      background: $light_grey;
+      position: absolute;
+      left: 633px;
+      top: 0;
+    }
+
+    &__line {
+      position: absolute;
+      left: 0;
+      top: 268px;
+    }
+  }
+
+  .about__section2__task2 {
+    width: 670px;
+    height: 687px;
+    margin-bottom: 120px;
+    position: relative;
+    overflow-x: hidden;
+
+    &__item {
+      width: 573px;
+      height: 687px;
+      margin-left: 97px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        border-radius: 50%;
+      }
+
+      &__card {
+        width: 573px;
+        height: 186px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h2 {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 48px;
+          letter-spacing: -2.14286px;
+          color: $dark_navy;
+          text-align: center;
+          padding: 0;
+          margin: 0 auto;
+          width: 457px;
+        }
+
+        p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dim_grey;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    &__round {
+      width: 445px;
+      height: 445px;
+      border-radius: 50%;
+      background: $light_grey;
+      position: absolute;
+      right: 570px;
+      top: 0;
+    }
+
+    &__line {
+      position: absolute;
+      top: 0;
+    }
+  }
+}
+
+
+// For small screens
+@media only screen and (max-width: 576px){
+  .about__section2__task {
+    width: 343px;
+    margin-left: 32px;
+    height: 595px;
+    margin-bottom: 120px;
+    position: relative;
+    overflow-x: hidden;
+
+    &__item {
+      width: 311px;
+      height: 563px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column-reverse;
+      margin-left: 0;
+
+      img {
+        border-radius: 50%;
+        width: 311px;
+        height: 311px;
+      }
+
+      &__card {
+        width: 311px;
+        height: 196px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h2 {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 32px;
+          letter-spacing: -1.42857px;
+          color: $dark_navy;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
+
+        p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dim_grey;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+
+    &__round {
+      width: 445px;
+      height: 445px;
+      border-radius: 50%;
+      background: $light_grey;
+      position: absolute;
+      left: 633px;
+      top: 0;
+      display: none;
+    }
+
+    &__line {
+      position: absolute;
+      left: 0;
+      top: 133px;
+    }
+  }
+
+  .about__section2__task2 {
+    width: 343px;
+    height: 563px;
+    margin-bottom: 120px;
+    position: relative;
+    overflow-x: hidden;
+    margin-right: 32px;
+
+    &__item {
+      width: 311px;
+      height: 563px;
+      margin-left: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        border-radius: 50%;
+        width: 311px;
+        height: 311px;
+      }
+
+      &__card {
+        width: 311px;
+        height: 196px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h2 {
+          width: 311px !important; 
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 32px;
+          letter-spacing: -1.42857px;
+          color: $dark_navy;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
+
+        p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dim_grey;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
+      }
+      
+    }
+
+    &__round {
+      width: 445px;
+      height: 445px;
+      border-radius: 50%;
+      background: $light_grey;
+      position: absolute;
+      right: 570px;
+      top: 0;
+      display: none;
+    }
+
+    &__line {
+      position: absolute;
+      top: 0;
+      left: -30px;
+    }
+  }
+}

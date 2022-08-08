@@ -1,0 +1,10 @@
+main{
+    padding-top: 96px;
+}
+
+// For small screens
+@media only screen and (max-width: 576px){
+    main{
+        padding-top: 64px;
+    }
+}

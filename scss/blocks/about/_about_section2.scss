@@ -1,0 +1,119 @@
+.about__section2__task {
+  width: 1275px;
+  margin-left: 165px;
+  height: 445px;
+  margin-bottom: 120px;
+  position: relative;
+  overflow-x: hidden;
+
+  &__item {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+    }
+
+    &__card {
+      width: 445px;
+      height: 195px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: $dark_navy;
+      }
+
+      p {
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: $dim_grey;
+      }
+    }
+  }
+
+  &__round {
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+    background: $light_grey;
+    position: absolute;
+    left: 1174px;
+    top: 0;
+  }
+
+  &__line {
+    position: absolute;
+    left: 540px;
+    top: 268px;
+  }
+}
+
+.about__section2__task2 {
+  width: 1275px;
+
+  height: 445px;
+  margin-bottom: 120px;
+  position: relative;
+  overflow-x: hidden;
+
+  &__item {
+    width: 1110px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+    }
+
+    &__card {
+      width: 445px;
+      height: 195px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: $dark_navy;
+      }
+
+      p {
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: $dim_grey;
+      }
+    }
+  }
+
+  &__round {
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+    background: $light_grey;
+    position: absolute;
+    right: 1174px;
+    top: 0;
+  }
+
+  &__line {
+    position: absolute;
+    top: 0;
+  }
+}

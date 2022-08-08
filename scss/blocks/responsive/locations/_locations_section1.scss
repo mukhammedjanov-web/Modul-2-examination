@@ -1,0 +1,42 @@
+// RWD Responsive WEB Design
+@media only screen and (max-width: 768px) {
+    .locations__section1__task{
+        width: 100%;
+        height: 200px;       
+        margin-bottom: 120px;
+    
+    
+        h2{
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;
+            margin-left: 97px;
+            padding-top: 72px;
+        }
+    }
+}
+
+// For small screens
+@media only screen and (max-width: 576px){
+    .locations__section1__task{
+        width: 375px;
+        height: 160px;
+        margin-bottom: 72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+        h2{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: -1.78571px;
+            color: #FFFFFF;
+            margin-left: 0;
+            padding-top: 0;
+        }
+    }
+}

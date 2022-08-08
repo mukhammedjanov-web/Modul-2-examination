@@ -1,0 +1,42 @@
+.section2__task {
+  width: 1275px;
+  height: 291px;
+  background-image: url();
+  margin-bottom: 200px;
+
+  &__item {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 165px;
+    
+    &__card {
+      width: 350px;
+      height: 291px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      img {
+        width: 96px;
+        height: 96px;
+      }
+
+      h4 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: $dark_navy;
+      }
+      
+      p {
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: $dim_grey;
+      }
+    }
+  }
+}

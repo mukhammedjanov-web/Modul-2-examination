@@ -1,0 +1,139 @@
+@charset "UTF8";
+@import "./normalize";
+@import "./fonts";
+@import "./veriables";
+@import "./general";
+@import "./blocks/all-blocks";
+
+
+
+
+.section1__task{
+    background-image: url("../images/sect1_bgk.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.section2__task {    
+    background-image: url(../images/sect2_line.svg);
+    background-repeat:no-repeat;
+    background-position-y: 40px;
+}
+
+.footer1 {
+    background-image: url(../images/footer_bgk.png);
+    background-repeat: no-repeat;
+    background-position-y:70px;
+    background-position-x: 379px;
+  }
+
+  .about__section1__task{
+    background-image: url("../images/images_about/sect1_bgk.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.careers__section1__task{
+    background-image: url("../images/images_careers/sect1_bgk.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.locations__section1__task{
+    background-image: url("../images/images_careers/sect1_bgk.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 768px){
+    .section1__task{
+        background-image: url("../images/sect1_bgk768.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    .section2__task {    
+        background-image: url(../images/sect2_bgkres.png);
+        background-repeat:no-repeat;
+        background-position-y: 0;
+        background-position-x: 137px;
+    }
+
+    .footer1 {
+        background-image: url(../images/footer_bgk768.png);
+        background-repeat: no-repeat;
+        background-position-y:150px;
+        background-position-x: 0;
+
+    }
+
+    .about__section1__task{
+        background-image: url("../images/images_about/sect1_bgk768.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    .careers__section1__task{
+        background-image: url("../images/images_careers/sect1_bgk768.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    .locations__section1__task{
+        background-image: url("../images/images_locations/sect2_bgk768.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+
+}
+
+// For small screens
+@media only screen and (max-width: 576px){
+    .section1__task{
+        background-image: url("../images/sect1_bgk576.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    .section2__task {    
+        background-image:none;
+        background-repeat:no-repeat;
+        background-position-y: 40px;
+    }
+
+    .footer1 {
+        background-image: url(../images/footer_bgk576.png);
+        background-repeat: no-repeat;
+        background-position-y:147px;
+        background-position-x: 0;
+
+    }
+
+    .about__section1__task{
+        background-image: url("../images/images_about/sect1_bgk576.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    .careers__section1__task{
+        background-image: url("../images/images_careers/sect1_bgk576.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    .locations__section1__task{
+        background-image: url("../images/images_careers/sect1_bgk576.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+
+
+}
+
+
+
+@import "./blocks/responsive/all-responsive-blocks";
+

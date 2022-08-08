@@ -1,0 +1,147 @@
+
+
+
+// RWD Responsive WEB Design
+
+@media only screen and (max-width: 768px){
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 689px;
+    height: 53px;
+    margin: 0 39px 0 40px;
+  
+    &__brand {
+      width: 107.82px;
+      height: 28.56px;
+    }
+  
+    &__task {
+      display: flex;
+      width: 523px;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    &__list {
+      width: 249px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 ;
+      margin: 0;
+  
+      &__item {
+        list-style-type: none;
+  
+        &--link {
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dim-grey;
+          padding: 0;
+  
+          &:hover{
+              color: $yellow;
+          }
+        }
+      }
+    }
+  
+    &__btn{
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #FFFFFF;
+      background: $yellow;    
+      border: none;
+  
+      width: 180px;
+      height: 53px;
+  
+      &:hover{
+          background: #FFFF;       
+          border: 3px solid $yellow;
+          color: $yellow;
+          cursor: pointer;       
+      }
+    }
+  }
+}
+
+
+// For small screens
+@media only screen and (max-width: 576px){
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 193px;
+    height: 20px;
+    margin: 0 0 0 32px;
+
+    &__icon{
+      display: inline-block;
+    }
+  
+    &__brand {
+      width: 75.5px;
+      height: 20px;
+    }
+  
+    &__task {
+      display: none;
+      width: 523px;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    &__list {
+      width: 249px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 ;
+      margin: 0;
+  
+      &__item {
+        list-style-type: none;
+  
+        &--link {
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dim-grey;
+          padding: 0;
+  
+          &:hover{
+              color: $yellow;
+          }
+        }
+      }
+    }
+  
+    &__btn{
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #FFFFFF;
+      background: $yellow;    
+      border: none;
+      display: none;
+  
+      width: 180px;
+      height: 53px;
+  
+      &:hover{
+          background: #FFFF;       
+          border: 3px solid $yellow;
+          color: $yellow;
+          cursor: pointer;       
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+// RWD Responsive WEB Design
+@media only screen and (max-width: 768px) {
+  .careers__section4__task {
+    width: 689px;
+    height: 848px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 120px;
+
+    &__card {
+      width: 689px;
+      height: 128px;
+      background: $snow;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 64px 0 40px;
+
+      &--item {
+        h4 {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: $dark_navy;
+          margin-bottom: 8px;
+        }
+
+        p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dark_navy;
+        }
+      }
+
+      &--btn {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #ffffff;
+        background: $yellow;
+        border: none;
+
+        width: 180px;
+        height: 53px;
+
+        &:hover {
+          background: #ffff;
+          border: 3px solid $yellow;
+          color: $yellow;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// For small screens
+@media only screen and (max-width: 576px){
+  .careers__section4__task {
+    width: 311px;
+    height: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 120px;
+
+    &__card {
+      width: 311px;
+      height: 190px;
+      background: $snow;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 36px 32px 36px 36px;
+
+      &--item {
+        h4 {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: -0.803571px;
+          color: $dark_navy;
+          margin-bottom: 0;
+          text-align: center;
+        }
+
+        p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dark_navy;
+          text-align: center;
+        }
+      }
+
+      &--btn {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #ffffff;
+        background: $yellow;
+        border: none;
+
+        width: 247px;
+        height: 53px;
+
+        &:hover {
+          background: #ffff;
+          border: 3px solid $yellow;
+          color: $yellow;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

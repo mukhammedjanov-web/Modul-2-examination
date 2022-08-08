@@ -1,0 +1,189 @@
+// RWD Responsive WEB Design
+@media only screen and (max-width: 768px) {
+  .careers__section2__task {
+    width: 729px;
+    height: 813px;
+    margin-left: 39px;
+    margin-bottom: 120px;
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__round {
+      width: 445px;
+      height: 445px;
+      background: $light_grey;
+      border-radius: 50%;
+      position: absolute;
+      left: 632px;
+    }
+
+    &__line {
+      position: absolute;
+      right: -10px;
+      bottom: 393px;
+    }
+
+    &__item {
+      width: 573px;
+      height: 813px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column-reverse;
+
+      img {
+        border-radius: 50%;
+      }
+
+      &__card {
+        width: 573px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 48px;
+          letter-spacing: -2.14286px;
+          color: $dark_navy;
+          margin-bottom: 24px;
+          text-align: center;
+        }
+
+        p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dim_grey;
+          margin-bottom: 40px;
+          text-align: center;
+        }
+
+        &__btn {
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 25px;
+          text-align: center;
+          color: #ffffff;
+          background: $yellow;
+          border: none;
+
+          width: 180px;
+          height: 53px;
+
+          &:hover {
+            background: #ffff;
+            border: 3px solid $yellow;
+            color: $yellow;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// For small screens
+@media only screen and (max-width: 576px){
+  .careers__section2__task {
+    width: 343px;
+    height: 698px;
+    margin-left: 32px;
+    margin-bottom: 120px;
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__round {
+      width: 445px;
+      height: 445px;
+      background: $light_grey;
+      border-radius: 50%;
+      position: absolute;
+      left: 632px;
+      display: none;
+    }
+
+    &__line {
+      position: absolute;
+      right: -398px;
+      bottom: 393px;
+    }
+
+    &__item {
+      width: 311px;
+      height: 698px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column-reverse;
+
+      img {
+        border-radius: 50%;
+        width: 311px;
+        height: 311px;
+      }
+
+      &__card {
+        width: 311px;
+        height: 331px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 32px;
+          letter-spacing: -1.42857px;
+          color: $dark_navy;
+          margin-bottom: 32px;
+          text-align: center;
+        }
+
+        p {
+          font-family: "Lexend Deca";
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: $dim_grey;
+          margin-bottom: 32px;
+          text-align: center;
+        }
+
+        &__btn {
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 25px;
+          text-align: center;
+          color: #ffffff;
+          background: $yellow;
+          border: none;
+
+          width: 180px;
+          height: 53px;
+
+          &:hover {
+            background: #ffff;
+            border: 3px solid $yellow;
+            color: $yellow;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

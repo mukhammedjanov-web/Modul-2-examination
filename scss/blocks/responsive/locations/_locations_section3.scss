@@ -1,0 +1,111 @@
+// RWD Responsive WEB Design
+@media only screen and (max-width: 768px) {
+  .locations__section3__task {
+    width: 573px;
+    height: 304px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  
+    h2 {
+      width: 351px;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14286px;
+      color: $dark_navy;
+      text-align: center;
+      width: 457px;
+    }
+  
+    p {
+      width: 573px;
+      font-family: "Lexend Deca";
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      color: $dim-grey;
+      text-align: center;
+    }
+  
+    &--btn {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      background: $yellow;
+      border: none;
+  
+      width: 180px;
+      height: 53px;
+  
+      &:hover {
+        background: #ffff;
+        border: 3px solid $yellow;
+        color: $yellow;
+        cursor: pointer;
+      }
+    }
+  }
+  
+}
+
+
+// For small screens
+@media only screen and (max-width: 576px){
+  .locations__section3__task {
+    width: 311px;
+    height: 306px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  
+    h2 {
+      width: 311px;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -1.42857px;
+      color: $dark_navy;
+      text-align: center;
+      width: 311px;
+    }
+  
+    p {
+      width: 311px;
+      font-family: "Lexend Deca";
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      color: $dim-grey;
+      text-align: center;
+    }
+  
+    &--btn {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      background: $yellow;
+      border: none;
+  
+      width: 180px;
+      height: 53px;
+  
+      &:hover {
+        background: #ffff;
+        border: 3px solid $yellow;
+        color: $yellow;
+        cursor: pointer;
+      }
+    }
+  }
+}

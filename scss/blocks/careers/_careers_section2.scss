@@ -1,0 +1,77 @@
+.careers__section2__task {
+  width: 1275px;
+  margin-left: 165px;
+  margin-bottom: 120px;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+
+  &__round {
+    width: 445px;
+    height: 445px;
+    background: $light_grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 1174px;
+  }
+
+  &__line {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  &__item {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+    }
+
+    &__card {
+      width: 445px;
+      height: 313px;
+
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: $dark_navy;
+        margin-bottom: 24px;
+      }
+
+      p {
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: $dim_grey;
+        margin-bottom: 40px;
+      }
+
+      &__btn {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #ffffff;
+        background: $yellow;
+        border: none;
+
+        width: 180px;
+        height: 53px;
+
+        &:hover {
+          background: #ffff;
+          border: 3px solid $yellow;
+          color: $yellow;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

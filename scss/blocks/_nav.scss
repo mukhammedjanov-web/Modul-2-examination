@@ -1,0 +1,71 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1106px;
+  height: 53px;
+  margin: 0 165px 0 169px;
+
+  &__icon{
+    display: none;
+  }
+  
+  &__brand {
+    width: 107.82px;
+    height: 28.56px;
+  }
+
+  &__task {
+    display: flex;
+    width: 940px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    width: 249px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 ;
+    margin: 0;
+
+    &__item {
+      list-style-type: none;
+
+      &--link {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: $dim-grey;
+        padding: 0;
+
+        &:hover{
+            color: $yellow;
+        }
+      }
+    }
+  }
+
+  &__btn{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: $yellow;    
+    border: none;
+
+    width: 180px;
+    height: 53px;
+
+    &:hover{
+        background: #FFFF;       
+        border: 3px solid $yellow;
+        color: $yellow;
+        cursor: pointer;       
+    }
+  }
+}
+
+

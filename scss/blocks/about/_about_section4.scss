@@ -1,0 +1,77 @@
+.about__section4__task {
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: $dark_navy;
+    margin-bottom: 64px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+
+    h3 {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -1.78571px;
+      color: $dark_navy;
+    }
+
+    &__cards {
+      width: 730px;
+    }
+  }
+}
+
+.section4__accordion {
+  &__item {
+    margin-bottom: 16px;
+    border: none;
+    border-radius: none;
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+    button {
+      height: 92px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07143px;
+      color: $dark_navy;
+      background: $snow;
+
+      &:enabled {
+        color: $dark_navy;
+        background: $snow;
+        border: none;
+      }
+
+      &:hover {
+        background: $light_yellow;
+      }
+    }
+
+    &__collapse {
+      &--body {
+        font-family: "Lexend Deca";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: $dark_navy;
+        background: $snow;
+        border: none;
+      }
+    }
+  }
+}

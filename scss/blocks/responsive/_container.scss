@@ -1,0 +1,20 @@
+
+// RWD Responsive WEB Design
+// For medium screens
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 768px;
+        margin: 0 auto;    
+        
+    }
+}
+
+// For small screens
+@media only screen and (max-width: 576px){
+    .container{
+        max-width: 375px;
+        margin: 0 auto;
+        
+        
+    }
+}
